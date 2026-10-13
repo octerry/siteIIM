@@ -1,0 +1,261 @@
+/*
+Theme Name: ThemeIIM
+Author: Terry
+Version: 1.0
+Requires at least: 6.0
+Requires PHP: 7.4
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    font-family: var(--wp--preset--font-family--poppins);
+}
+
+.header-button-icon {
+    background-color: transparent;
+    margin: 1em;
+}
+
+.header-button-rdv {
+    background: radial-gradient(circle at right center, #834A9F 0%, #3E336F 48%, #2F1B39 100%);
+    border-left: 3px #fff solid;
+}
+
+.header-button-rdv a {
+    background-color: transparent;
+}
+
+.great-header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(0.25turn, #782E00, #E66C0F);
+    color: #fff;
+    font-size: .7em;
+    width: 100%;
+
+    box-shadow: 0 .25em .5em #00000030;
+}
+
+.header-button-icon {
+    width: 10em;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: .5em;
+}
+
+.sub-navbar {
+    display: flex;
+    align-items: center;
+
+    width: fit-content;
+    padding: .4em 1em;
+
+    border: #604d48 1px solid;
+    border-radius: 1em;
+
+    background-color: #97786a70;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: .6em;
+}
+
+.language-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .15em;
+    gap: .1em;
+
+    background-color: #694D8E;
+    border: #3C2A5A 1px solid;
+    border-radius: .5em;
+
+    box-shadow: 4px 4px 8px #00000030;
+}
+
+.language-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .1em .3em;
+    margin: 0;
+}
+
+.selected-language {
+    background-color: #9277A9;
+
+    border: 1px #BE9CCC solid;
+    border-radius: .25em;
+}
+
+.language-flag img, .language-flag a {
+    display: block;
+    width: 1em;
+}
+
+.home-screen {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+    padding-top: 6em;
+    gap: 1em;
+}
+
+.home-screen-section {
+    max-width: fit-content;
+}
+
+.home-screen-filter {
+    background: linear-gradient(0.25turn, #150532 0%, #AE95F9A0 50%, #1D031D 100%);
+}
+
+.home-screen-description {
+    font-weight: 100;
+    font-size: 1em;
+}
+
+.candidature-button {
+    background: linear-gradient(0.23turn, #FF8A0590 0%, #A4611690 100%);
+    margin-top: 1em;
+
+    border: #E7AE7C 1px solid;
+    border-radius: .3em;
+
+    box-shadow: 3px 3px 6px #00000030;
+
+    font-size: .7em;
+    font-weight: 500;
+}
+
+.jpo-section {
+    max-width: fit-content;
+
+    padding: .5em;
+    margin: 0;
+    border: 1px #ABABAB solid;
+    border-radius: .5em;
+    background: radial-gradient(circle at top left, #ABABAB30 0%, #6B6B6B50 100%);
+
+    box-shadow: 4px 4px 8px #00000040;
+}
+
+.jpo-title {
+    font-size: 1em;
+    text-align: center;
+}
+
+.jpo-bloc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: .5em;
+    margin-top: .5em;
+
+    border: 1px #806F5C solid;
+    border-radius: .5em;
+    background: radial-gradient(circle at left center, #A28375 0%, #644A42 45%, #2A1B14 100%);
+}
+
+.jpo-infos {
+    margin-right: .8em;
+}
+
+.jpo-city {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+.jpo-description {
+    font-weight: 100;
+    font-size: .7em;
+}
+
+.jpo-button {
+    background: radial-gradient(circle at bottom left, #A24C0080 0%, #BC5F40 100%);
+    height: 4em;
+
+    border: 1px #fff solid;
+    border-radius: .4em;
+    font-size: .6em;
+}
+
+.jpo-button a {
+    background-color: transparent;
+}
+
+.home-screen-sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5em;
+
+    max-width: fit-content;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.sponsor-logo {
+    width: 5em;
+}
+
+.e404-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: linear-gradient(.25turn, #592C09 0%, #470221 50%, #2A1B3B 100%);
+}
+
+.e404-image {
+    width: 14em;
+}
+
+.e404-title {
+    margin: .5em;
+    
+    color: #fff;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1em;
+    text-align: center;
+}
+
+.e404-redirection a {
+    background-color: transparent;
+
+    font-size: .7em;
+    color: #FF6020;
+
+    transition: color .2s, transform .2s;
+}
+
+.e404-redirection a:hover {
+    color: #fa966f;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
