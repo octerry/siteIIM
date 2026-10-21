@@ -21,7 +21,7 @@
     <!-- wp:buttons {"tagName":"main","layout":{"type":"default", "className":"projects-galery-section"}} -->
     <div class="wp-block-buttons projects-galery-section">
         <!-- wp:button {"tagName":"main","layout":{"type":"default", "className":"project-unit"}} -->
-        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/projet">
+        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/siteIIM/index.php/projet">
             <!-- wp:group {"tagName":"main","layout":{"type":"default", "className":"project-unit-header"}} -->
             <div class="wp-block-group project-unit-header">
                 <!-- wp:image {"sizeSlug":"large", "className":"project-unit-icon"} -->
@@ -38,7 +38,7 @@
         </a></div>
         <!-- /wp:group -->
         <!-- wp:button {"tagName":"main","layout":{"type":"default", "className":"project-unit"}} -->
-        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/projet">
+        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/siteIIM/index.php/projet">
             <!-- wp:group {"tagName":"main","layout":{"type":"default", "className":"project-unit-header"}} -->
             <div class="wp-block-group project-unit-header">
                 <!-- wp:image {"sizeSlug":"large", "className":"project-unit-icon"} -->
@@ -55,7 +55,7 @@
         </a></div>
         <!-- /wp:group -->
         <!-- wp:button {"tagName":"main","layout":{"type":"default", "className":"project-unit"}} -->
-        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/projet">
+        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/siteIIM/index.php/projet">
             <!-- wp:group {"tagName":"main","layout":{"type":"default", "className":"project-unit-header"}} -->
             <div class="wp-block-group project-unit-header">
                 <!-- wp:image {"sizeSlug":"large", "className":"project-unit-ico"} -->
@@ -72,7 +72,7 @@
         </a></div>
         <!-- /wp:group -->
         <!-- wp:button {"tagName":"main","layout":{"type":"default", "className":"project-unit"}} -->
-        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/projet">
+        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/siteIIM/index.php/projet">
             <!-- wp:group {"tagName":"main","layout":{"type":"default", "className":"project-unit-header"}} -->
             <div class="wp-block-group project-unit-header">
                 <!-- wp:image {"sizeSlug":"large", "className":"project-unit-icon"} -->
@@ -89,7 +89,7 @@
         </a></div>
         <!-- /wp:group -->
         <!-- wp:button {"tagName":"main","layout":{"type":"default", "className":"project-unit"}} -->
-        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/projet">
+        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/siteIIM/index.php/projet">
             <!-- wp:group {"tagName":"main","layout":{"type":"default", "className":"project-unit-header"}} -->
             <div class="wp-block-group project-unit-header">
                 <!-- wp:image {"sizeSlug":"large", "className":"project-unit-icon"} -->
@@ -106,7 +106,7 @@
         </a></div>
         <!-- /wp:group -->
         <!-- wp:button {"tagName":"main","layout":{"type":"default", "className":"project-unit"}} -->
-        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/projet">
+        <div class="wp-block-button project-unit"><a class="wp-block-button__link wp-element-button" href="/siteIIM/index.php/projet">
             <!-- wp:group {"tagName":"main","layout":{"type":"default", "className":"project-unit-header"}} -->
             <div class="wp-block-group project-unit-header">
                 <!-- wp:image {"sizeSlug":"large", "className":"project-unit-icon"} -->

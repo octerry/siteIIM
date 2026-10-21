@@ -454,6 +454,91 @@ Requires PHP: 7.4
     box-shadow: 0 0 1em #A83DFF;
 }
 
+/* ================== Articles ================ */
+.article-title {
+    padding-top: 25vh;
+    font-size: 5vw;
+    margin: 0 2em;
+    text-align: center;
+    color: #363636;
+}
+
+.article-subtitle {
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.article-p {
+    margin: 5em 2em;
+    font-size: .7em;
+}
+
+.orange-subtitle {
+    color: #ED5B00;
+    margin: 2em;
+}
+
+/* ================== Project page ================ */
+.project-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.project-p {
+    margin: 2em 2em;
+    font-size: .7em;
+}
+
+/* ================== RDV ================== */
+.rdv-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100dvh;
+    margin-bottom: -1em;
+
+    background: radial-gradient(#fff 0%, #D1C0FF 100%);
+}
+
+.rdv-container {
+    padding: 1em;
+
+    background-color: #E2DEFB;
+    border: 1px #1A4092 solid;
+    border-radius: .5em;
+}
+
+.rdv-title {
+    font-size: 1em;
+    text-align: center;
+}
+
+.rdv-subtitle {
+    font-size: .7em;
+    line-height: 100%;
+    margin-top: 1em;
+}
+
+.rdv-radio-input {
+    width: .6em;
+    height: .6em;
+}
+
+.rdv-radio-text {
+    font-size: .6em;
+}
+
+.rdv-text-input {
+    padding: .5em;
+    font-size: .5em;
+    border-radius: .5em;
+}
+
+.rdv-agenda {
+    font-size: .5em;
+}
 
 /* ================== 404 ================== */
 .e404-section {

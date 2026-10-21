@@ -159,7 +159,7 @@
     <!-- wp:buttons {"className":"section-pole-candidate"} -->
     <div class="wp-block-buttons section-pole-candidate">
         <!-- wp:button {"className":"section-pole-candidate-button"} -->
-        <div class="wp-block-button section-pole-candidate-button"><a class="wp-block-button__link wp-element-button" href="/candidater">Démarrer une candidature --></a></div>
+        <div class="wp-block-button section-pole-candidate-button"><a class="wp-block-button__link wp-element-button" href="/siteIIM/pitieRenvoieMoiVersUn404">Démarrer une candidature --></a></div>
         <!-- /wp:button -->
     </div>
     <!-- /wp:buttons -->
