@@ -2,7 +2,8 @@
 
 function mon_theme_fse_assets()
 {
-    wp_enqueue_style('style', get_stylesheet_uri(), [], wp_get_theme()->get('Version'));
+    wp_enqueue_style('mon-theme-fse-style', get_stylesheet_uri());
+    wp_enqueue_style('mon-theme-fse-custom', get_template_directory_uri() . '/assets/css/style.css');
 }
 add_action('wp_enqueue_scripts', 'mon_theme_fse_assets');
 
